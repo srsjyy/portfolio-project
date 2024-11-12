@@ -1061,19 +1061,27 @@ body.nav-active {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
   }
   
-  .contact-card {
+  .contact-card{
     text-align: center; /* Center the content */
   }
 
   .contact-content {
     text-align: center;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
   }
+  
+  .card-icon {
+    margin-bottom: 20px; /* Optional: add space between the icon and the text */
+  }
+  
   
   .contact-btn {
     margin: 0 auto;
     display: inline-block;
   }
-
 }
 
 
