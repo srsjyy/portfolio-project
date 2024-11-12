@@ -320,7 +320,7 @@ body.nav-active {
 
 .nav-open-btn {
   font-size: 3.5rem;
-  color: var(--gunmetal);
+  color: white;
 }
 
 .navbar {
@@ -383,6 +383,7 @@ body.nav-active {
   font-weight: var(--fw-700);
   padding-block: 6px;
    margin-block-end: auto;
+   color: #ffffff;
   
 }
 
