@@ -653,12 +653,33 @@ body.nav-active {
 }
 
 .skills-text {
-  font-size: 2rem;
-  /* Adjust to desired text size */
-  line-height: 1.6;
-  /* Adjust line spacing for readability */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
   text-align: justify;
+  justify-content: flex-start; /* Aligns tags to the left */
 }
+
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 0.4em 0.8em;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight:500;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.skill-tag::before {
+  content: ""; /* Adds space before the emoji */
+}
+
 
 
 /*-----------------------------------*\
